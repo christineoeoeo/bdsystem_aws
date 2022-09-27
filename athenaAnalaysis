@@ -1,1 +1,2 @@
 
+SELECT description, count(*) from orderlog_schema.orderlogs_ where country='France' and year='2019' and month='02' group by description
